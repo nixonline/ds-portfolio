@@ -12,7 +12,7 @@
 * Explored data to examine population distribution and factors affecting it.
 * Created a regression model to predict population.
 
-<img src="images/metro_manila_analysis.jpg?raw=true"/>
+<img src="images/metro_manila_analysis.JPG?raw=true"/>
 
 ---
 
