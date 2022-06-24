@@ -12,16 +12,16 @@
 * Explored data to examine population distribution and factors affecting it.
 * Created a regression model to predict population.
 
-<img src="images/metro_manila_analysis.JPG?raw=true"/>
+<img src="images/metro_manila_analysis.JPG?raw=true" width="600"/>
 
 ---
 
-[Drawing Handling Time Study and Prediction](https://colab.research.google.com/drive/1_krmEZN2wJkxehwogpgRlLemo-v64oTU?usp=sharing)
+[Drawing Handling Time Study](https://colab.research.google.com/drive/1_krmEZN2wJkxehwogpgRlLemo-v64oTU?usp=sharing)
 
 * Studied distribution of historical data to calibrate operational metrics.
 * Created a model to predict processing time given the project details.
 
-<img src="images/ht_analysis.jpg?raw=true"/>
+<img src="images/ht_analysis.jpg?raw=true" width="600"/>
 
 ---
 
