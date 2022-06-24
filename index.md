@@ -16,7 +16,7 @@
 
 ---
 
-[Drawing Handling Time Study](https://colab.research.google.com/drive/1_krmEZN2wJkxehwogpgRlLemo-v64oTU?usp=sharing)
+[Handling Time Study](https://colab.research.google.com/drive/1_krmEZN2wJkxehwogpgRlLemo-v64oTU?usp=sharing)
 
 * Studied distribution of historical data to calibrate operational metrics.
 * Created a model to predict processing time given the project details.
