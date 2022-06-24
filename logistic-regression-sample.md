@@ -8,7 +8,7 @@
 
 The dataset consists of a records from completed projects with columns project name, amount, start and end date, its difference, and a binary indicator of sales success. 
 
-<img src="images/smithy_1.jpg?raw=true" width="900"/>
+<img src="images/smithy_1.jpg?raw=true"/>
 
 * Pearson correlation shows weak relationship between project value and sales status. This is because the dataset is filtered to show only projects with less than 25k value.
 * The interquartile regions of the boxplot shows a clear distinction between winning and losing projects.
@@ -21,7 +21,7 @@ Logistic regression is appropriate since the task is binary - to predict wether 
 
 The dataset is divided for learning and validation with a ratio of 85/15.
 
-<img src="images/smithy_2.jpg?raw=true" width="900"/>
+<img src="images/smithy_2.jpg?raw=true"/>
 
 * The model performed with 85% accuracy during training while 66% for testing.
 * Predicted and probability column is added to the dataset for comparison with the actual.
@@ -31,4 +31,4 @@ The dataset is divided for learning and validation with a ratio of 85/15.
 
 A new dataset of ongoing projects is loaded on this page. The inquiry column is subtracted to the current date at the time of screenshot, to get project life and evaluate in the predictor model. 
 
-<img src="images/smithy_3.jpg?raw=true" width="900"/>
+<img src="images/smithy_3.jpg?raw=true"/>
