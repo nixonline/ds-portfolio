@@ -32,8 +32,6 @@
 
 <img src="images/log_regression.jpg?raw=true"/>
 
-*Red line indicates probability*
-
 ---
 
 [Project 1 Title](/sample_page)
