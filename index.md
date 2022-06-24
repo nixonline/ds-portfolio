@@ -4,7 +4,7 @@
 
 ### Projects
 
-[Analysis of Congestion in Metro Manila](https://colab.research.google.com/drive/1J-Yn_x-aKEDDFcbLR13Usxn7tEnd-vrL)
+[Analysis of Congestion in Metro Manila](https://drive.google.com/file/d/1J-Yn_x-aKEDDFcbLR13Usxn7tEnd-vrL/view?usp=sharing)
 
 *My final project in Python for Data Science, (USDC DS MicroMasters)*
 
@@ -15,6 +15,16 @@
 <img src="images/metro_manila_analysis.jpg?raw=true"/>
 
 ---
+
+[Drawing Handling Time Study and Prediction](https://colab.research.google.com/drive/1_krmEZN2wJkxehwogpgRlLemo-v64oTU?usp=sharing)
+
+* Studied distribution of historical data to calibrate operational metrics.
+* Created a model to predict processing time given the project details.
+
+<img src="images/ht_analysis.jpg?raw=true"/>
+
+---
+
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
