@@ -2,8 +2,19 @@
 
 ---
 
-### Category Name 1 
+### Projects
 
+[Analysis of Congestion in Metro Manila](https://colab.research.google.com/drive/1J-Yn_x-aKEDDFcbLR13Usxn7tEnd-vrL)
+
+*My final project in Python for Data Science, (USDC DS MicroMasters)*
+
+* Data used in this project are collected from government open data websites.
+* Explored data to examine population distribution and factors affecting it.
+* Created a regression model to predict population.
+
+<img src="images/metro_manila_analysis.jpg?raw=true"/>
+
+---
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
