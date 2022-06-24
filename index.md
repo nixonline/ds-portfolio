@@ -25,7 +25,7 @@
 
 ---
 
-[Predicting Sales Probability by Project Life Using Logistic Regression](/logistic-regression-sample)
+[Predicting Sales Probability by Project Life Using Logistic Regression](https://nixonline.github.io/ds-portfolio/logistic-regression-sample)
 
 * A simple demonstration of Python implementation in Power BI.
 * Created a logistic regression model that classifies and predicts the probability of closing a sale given the current project life, to manage team efforts.
