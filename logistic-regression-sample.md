@@ -1,4 +1,4 @@
-## Predicting Sales Probability by Project Life Using Logistic Regression
+## Predicting Sales Probability Using Logistic Regression
 
 *This is a simple demonstration of using Python and DS libraries inside Power BI to create a simple machine learning model and matplotlib visuals.*
 
