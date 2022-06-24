@@ -1,31 +1,34 @@
-## This can be your internal website page / project page
+## Predicting Sales Probability by Project Life Using Logistic Regression
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*This is a simple demonstration of using Python and DS libraries inside Power BI to create a simple machine learning model and matplotlib visuals.*
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### Task: Create a sales predictor for fictional company Smithy GmbH
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+#### Overview
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+The dataset consists of a records from completed projects with columns project name, amount, start and end date, its difference, and a binary indicator of sales success. 
 
-### 2. Assess assumptions on which statistical inference will be based
+<img src="images/smithy_1.jpg?raw=true" width="900"/>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+* Pearson correlation shows weak relationship between project value and sales status. This is because the dataset is filtered to show only projects with less than 25k value.
+* The interquartile regions of the boxplot shows a clear distinction between winning and losing projects.
+* Width of boxplot shows variance.
+* Lose datapoints ouside the left whisker indicates outliers.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+#### Model
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Logistic regression is appropriate since the task is binary - to predict wether sales is or not closed based on the current project life. The logicstic regression formula can be interpreted as: what is the probability that a random project Y is closed, given the current X project life.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+The dataset is divided for learning and validation with a ratio of 85/15.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src="images/smithy_2.jpg?raw=true" width="900"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* The model performed with 85% accuracy during training while 66% for testing.
+* Predicted and probability column is added to the dataset for comparison with the actual.
+* The model will return binary value - 1 if probability is above .5. It is possible to retrieve the probability as shown as red line in the scatter plot.
+
+#### Prediction
+
+A new dataset of ongoing projects is loaded on this page. The inquiry column is subtracted to the current date at the time of screenshot, to get project life and evaluate in the predictor model. 
+
+<img src="images/smithy_3.jpg?raw=true" width="900"/>
