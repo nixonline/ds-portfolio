@@ -8,7 +8,7 @@
 
 *My final project in Python for Data Science, (USDC DS MicroMasters)*
 
-* Data used in this project are collected from government open data websites.
+* Data used in this study are collected from government open data websites.
 * Explored data to examine population distribution and factors affecting it.
 * Created a regression model to predict population.
 
@@ -22,6 +22,17 @@
 * Created a model to predict processing time given the project details.
 
 <img src="images/ht_analysis.jpg?raw=true" width="600"/>
+
+---
+
+[Predicting Sales Probability by Project Life Using Logistic Regression](/sample_page)
+
+* A simple demonstration of Python implementation in Power BI.
+* Created a logistic regression model that classifies and predicts the probability of closing a sale given the current project life, to manage team efforts.
+
+<img src="images/log_regression.jpg?raw=true"/>
+
+*Red line indicates probability*
 
 ---
 
