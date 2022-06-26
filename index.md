@@ -34,7 +34,9 @@
 * A simple demonstration of Python implementation in Power BI.
 * Created a logistic regression model that classifies and predicts the probability of closing a sale given the current project life, to manage team efforts.
 
-<img src="images/log_regression.jpg?raw=true"/>
-
+<a href="https://nixonline.github.io/ds-portfolio/logistic-regression-sample">
+  <img src="images/log_regression.jpg?raw=true"/>
+</a>
+  
 ---
 
