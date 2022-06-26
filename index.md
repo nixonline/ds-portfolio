@@ -37,6 +37,5 @@
 <a href="https://nixonline.github.io/ds-portfolio/logistic-regression-sample">
   <img src="images/log_regression.jpg?raw=true"/>
 </a>
-  
----
+
 
