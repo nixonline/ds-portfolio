@@ -8,7 +8,7 @@
 
 The dataset consists of a records from completed projects with columns project name, amount, start and end date, its difference, and a binary indicator of sales success. 
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_1.jpg">
+<a href="https://nixonline.github.io/ds-portfolio/images/smithy_1.jpg" target="_blank">
   <img src="images/smithy_1.jpg?raw=true" class="img-zoom"/>
 </a>
 
@@ -23,7 +23,7 @@ Logistic regression is appropriate since the task is binary - to predict wether 
 
 The dataset is divided for learning and validation with a ratio of 85/15.
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_2.jpg">
+<a href="https://nixonline.github.io/ds-portfolio/images/smithy_2.jpg" target="_blank">
   <img src="images/smithy_2.jpg?raw=true" class="img-zoom"/>
 </a>
 
@@ -35,6 +35,6 @@ The dataset is divided for learning and validation with a ratio of 85/15.
 
 A new dataset of ongoing projects is loaded on this page. The inquiry column is subtracted to the current date at the time of screenshot, to get project life and evaluate in the predictor model. 
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_3.jpg">
+<a href="https://nixonline.github.io/ds-portfolio/images/smithy_3.jpg" target="_blank">
   <img src="images/smithy_3.jpg?raw=true" class="img-zoom"/>
 </a>
