@@ -12,7 +12,9 @@
 * Explored data to examine population distribution and factors affecting it.
 * Created a regression model to predict population.
 
-<img src="images/metro_manila_analysis.JPG?raw=true" width="600"/>
+<a href="https://raw.githubusercontent.com/nixonline/ds-portfolio/master/images/metro_manila_analysis.JPG" target="_blank">
+  <img src="images/metro_manila_analysis.JPG?raw=true" width="600"/>
+</a>
 
 ---
 
@@ -21,8 +23,10 @@
 * Studied distribution of historical data to calibrate operational metrics.
 * Created a model to predict processing time given the project details.
 
-<img src="images/ht_analysis.jpg?raw=true" width="600"/>
-
+<a href="https://raw.githubusercontent.com/nixonline/ds-portfolio/master/images/ht_analysis.jpg" target="_blank">
+  <img src="images/ht_analysis.jpg?raw=true" width="600"/>
+</a>
+  
 ---
 
 [Predicting Sales Probability Using Logistic Regression](https://nixonline.github.io/ds-portfolio/logistic-regression-sample)
