@@ -18,7 +18,7 @@
 
 ---
 
-<a href="#" target="_blank">Handling Time Study</a>
+<a href="#">Handling Time Study</a>
 
 * Studied distribution of historical data to calibrate operational metrics.
 * Created a model to predict processing time given the project details.
