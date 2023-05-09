@@ -46,7 +46,7 @@
 * Uses object visibility to create pop up windows.
 
 <a href="https://nixonline.github.io/ds-portfolio/pbi-downsizing">
-  <img src="images/Downsize_page-0001?raw=true"/>
+  <img src="images/Downsize_page-0001.jpg?raw=true"/>
 </a>
 
 ---
@@ -57,6 +57,6 @@
 * Dataset credits: RSKRIEGS on <a href"https://www.kaggle.com/datasets/kriegsmaschine/polish-it-job-board-data-from-2022">Kaggle</a>
 
 <a href="https://nixonline.github.io/ds-portfolio/pbi-pl-it-jobs-2022">
-  <img src="images/Polish IT Job Board 2022_page-0001?raw=true"/>
+  <img src="images/Polish IT Job Board 2022_page-0001.jpg?raw=true"/>
 </a>
 
