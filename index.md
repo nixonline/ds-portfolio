@@ -38,4 +38,25 @@
   <img src="images/log_regression.jpg?raw=true"/>
 </a>
 
+---
+
+[PBI Report: Departmental Downsizing](https://nixonline.github.io/ds-portfolio/pbi-downsizing)
+
+* Utilizes field parameters feature (12/22 release) for quickly toggling columns in visualizations.
+* Uses object visibility to create pop up windows.
+
+<a href="https://nixonline.github.io/ds-portfolio/pbi-downsizing">
+  <img src="images/Downsize_page-0001?raw=true"/>
+</a>
+
+---
+
+[PBI Report: 2022 Polish IT Job Board Opportunities](https://nixonline.github.io/ds-portfolio/pbi-pl-it-jobs-2022)
+
+* Data visualization of IT Jobs in Poland from 2022 dataset using Power BI.
+* Dataset credits: RSKRIEGS on <a href"https://www.kaggle.com/datasets/kriegsmaschine/polish-it-job-board-data-from-2022">Kaggle</a>
+
+<a href="https://nixonline.github.io/ds-portfolio/pbi-pl-it-jobs-2022">
+  <img src="images/Polish IT Job Board 2022_page-0001?raw=true"/>
+</a>
 
