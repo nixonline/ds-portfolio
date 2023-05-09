@@ -1,40 +1,40 @@
-## Predicting Sales Probability Using Logistic Regression
+## PBI Report: 2022 Polish IT Job Board Opportunities
 
-*This is a simple demonstration of using Python and DS libraries inside Power BI to create a simple machine learning model and matplotlib visuals.*
+Dataset credits: RSKRIEGS on <a href=”https://www.kaggle.com/datasets/kriegsmaschine/polish-it-job-board-data-from-2022”>Kaggle</a>
 
-### Task: Create a sales predictor for fictional company Smithy GmbH
+### Task: Data visualization in PBI
 
 #### Overview
 
-The dataset consists of a records from completed projects with columns project name, amount, start and end date, its difference, and a binary indicator of sales success. 
+First report page is a summary of the dataset.
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_1.jpg" target="_blank">
-  <img src="images/smithy_1.jpg?raw=true" class="img-zoom"/>
+<a href="https://nixonline.github.io/ds-portfolio/images/Polish IT Job Board 2022_page-0001.jpg" target="_blank">
+  <img src="images/Polish IT Job Board 2022_page-0001.jpg?raw=true" class="img-zoom"/>
 </a>
 
-* Pearson correlation shows weak relationship between project value and sales status. This is because the dataset is filtered to show only projects with less than 25k value.
-* The interquartile regions of the boxplot shows a clear distinction between winning and losing projects.
-* Width of boxplot shows variance.
-* Lose datapoints ouside the left whisker indicates outliers.
+* Use field parameters and assign buttons that the user can use to change legend on visuals.
+* Display volume of opportunities per location and breakdown per chosen category.
+* Number of opportunities per month and location.
+* Word cloud of trending keywords.
 
-#### Model
+#### Filters
 
-Logistic regression is appropriate since the task is binary - to predict wether sales is or not closed based on the current project life. The logicstic regression formula can be interpreted as: what is the probability that a random project Y is closed, given the current X project life.
+A pop up window is implemented to contain the slicers.
 
-The dataset is divided for learning and validation with a ratio of 85/15.
-
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_2.jpg" target="_blank">
-  <img src="images/smithy_2.jpg?raw=true" class="img-zoom"/>
+<a href="https://nixonline.github.io/ds-portfolio/images/Polish IT Job Board 2022_page-0002.jpg" target="_blank">
+  <img src="images/Polish IT Job Board 2022_page-0002.jpg?raw=true" class="img-zoom"/>
 </a>
 
-* The model performed with 85% accuracy during training while 66% for testing.
-* Predicted and probability column is added to the dataset for comparison with the actual.
-* The model will return binary value - 1 if probability is above .5. It is possible to retrieve the probability as shown as red line in the scatter plot.
+#### Roles and Skills
 
-#### Prediction
+Second report page ranks roles and skills required by the listed openings.
 
-A new dataset of ongoing projects is loaded on this page. The inquiry column is subtracted to the current date at the time of screenshot, to get project life and evaluate in the predictor model. 
+<a href="https://nixonline.github.io/ds-portfolio/images/Polish IT Job Board 2022_page-0003.jpg" target="_blank">
+  <img src="images/Polish IT Job Board 2022_page-0003.jpg?raw=true" class="img-zoom"/>
+</a>
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_3.jpg" target="_blank">
-  <img src="images/smithy_3.jpg?raw=true" class="img-zoom"/>
+#### Raw Data
+
+<a href="https://nixonline.github.io/ds-portfolio/images/Polish IT Job Board 2022_page-0004.jpg" target="_blank">
+  <img src="images/Polish IT Job Board 2022_page-0004.jpg?raw=true" class="img-zoom"/>
 </a>
