@@ -54,7 +54,7 @@
 [PBI Report: 2022 Polish IT Job Board Opportunities](https://nixonline.github.io/ds-portfolio/pbi-pl-it-jobs-2022)
 
 * Data visualization of IT Jobs in Poland from 2022 dataset using Power BI.
-* Dataset credits: RSKRIEGS on <a href"https://www.kaggle.com/datasets/kriegsmaschine/polish-it-job-board-data-from-2022">Kaggle</a>
+* Dataset credits: RSKRIEGS on <a href="https://www.kaggle.com/datasets/kriegsmaschine/polish-it-job-board-data-from-2022"> Kaggle </a>
 
 <a href="https://nixonline.github.io/ds-portfolio/pbi-pl-it-jobs-2022">
   <img src="images/Polish IT Job Board 2022_page-0001.jpg?raw=true"/>
