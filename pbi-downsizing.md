@@ -1,40 +1,44 @@
-## Predicting Sales Probability Using Logistic Regression
+## PBI Report: Departmental Downsizing
 
-*This is a simple demonstration of using Python and DS libraries inside Power BI to create a simple machine learning model and matplotlib visuals.*
-
-### Task: Create a sales predictor for fictional company Smithy GmbH
+### Task: Data visualization in PBI
 
 #### Overview
 
-The dataset consists of a records from completed projects with columns project name, amount, start and end date, its difference, and a binary indicator of sales success. 
+Summary page displays all vital metrics and KPIs. 
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_1.jpg" target="_blank">
-  <img src="images/smithy_1.jpg?raw=true" class="img-zoom"/>
+<a href="https://nixonline.github.io/ds-portfolio/images/Downsize_page-0001.jpg" target="_blank">
+  <img src="images/Downsize_page-0001.jpg?raw=true" class="img-zoom"/>
 </a>
 
-* Pearson correlation shows weak relationship between project value and sales status. This is because the dataset is filtered to show only projects with less than 25k value.
-* The interquartile regions of the boxplot shows a clear distinction between winning and losing projects.
-* Width of boxplot shows variance.
-* Lose datapoints ouside the left whisker indicates outliers.
+* Cards displaying metrics and its progress and target.
+* Scatter plot with target line and color coded data points (passed, failed).
 
-#### Model
+#### Dynamic Axes
 
-Logistic regression is appropriate since the task is binary - to predict wether sales is or not closed based on the current project life. The logicstic regression formula can be interpreted as: what is the probability that a random project Y is closed, given the current X project life.
+Using field parameters, axes on visuals can be changed according to desired categorical column.
 
-The dataset is divided for learning and validation with a ratio of 85/15.
-
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_2.jpg" target="_blank">
-  <img src="images/smithy_2.jpg?raw=true" class="img-zoom"/>
+<a href="https://nixonline.github.io/ds-portfolio/images/Downsize_page-0002.jpg" target="_blank">
+  <img src="images/Downsize_page-0002.jpg?raw=true" class="img-zoom"/>
 </a>
 
-* The model performed with 85% accuracy during training while 66% for testing.
-* Predicted and probability column is added to the dataset for comparison with the actual.
-* The model will return binary value - 1 if probability is above .5. It is possible to retrieve the probability as shown as red line in the scatter plot.
+#### Pop Up Window
 
-#### Prediction
+To conserve space on the report page, a hidden window is created to contain KPI specific slicers.
 
-A new dataset of ongoing projects is loaded on this page. The inquiry column is subtracted to the current date at the time of screenshot, to get project life and evaluate in the predictor model. 
+<a href="https://nixonline.github.io/ds-portfolio/images/Downsize_page-0003.jpg" target="_blank">
+  <img src="images/Downsize_page-0003.jpg?raw=true" class="img-zoom"/>
+</a>
 
-<a href="https://nixonline.github.io/ds-portfolio/images/smithy_3.jpg" target="_blank">
-  <img src="images/smithy_3.jpg?raw=true" class="img-zoom"/>
+#### Switch Between Bar and Box Chart
+
+A button is created to toggle display between bar and box chart. 
+
+<a href="https://nixonline.github.io/ds-portfolio/images/Downsize_page-0004.jpg" target="_blank">
+  <img src="images/Downsize_page-0004.jpg?raw=true" class="img-zoom"/>
+</a>
+
+#### Raw Data
+
+<a href="https://nixonline.github.io/ds-portfolio/images/Downsize_page-0005.jpg" target="_blank">
+  <img src="images/Downsize_page-0005.jpg?raw=true" class="img-zoom"/>
 </a>
